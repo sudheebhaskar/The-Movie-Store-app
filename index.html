@@ -5,12 +5,59 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 </head>
+  <script  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
 
+  </script>
 <body>
-  Hello world
-  <script src="script.js"></script>
+  <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">The Movie Store</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link" href="movieList.html">Movies List</a>
+              <a class="nav-link" href="addMovie.html">Add Movies</a>
+
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+  </header>
+  <main>
+      <!-- <div class="text-center">
+    <img src="https://placehold.co/1340x500?text=Welcome+to+The+Movie+Store" alt="laptop-banners" class="img-fluid" />
+        </div> -->
+
+    <div class="container-fluid bg-info text-white text-center py-5">
+      <h1 class="display-4">Welcome to The Movie Store</h1>
+      <p class="lead">Track movies and their releases with this simple management system</p>
+    </div>
+
+
+    <section class="text-center py-4 bg-light">
+      <h2>Movie List</h2>
+      <p>View and manage movies in this system.</p>
+     <a href="movieList.html" class="btn btn-info">Movies List</a>
+    </section>
+
+    <section class="text-center py-4">
+      <h2>Manage Movies</h2>
+      <p>Add new movies to the system with their details.</p>
+      <a href="addMovie.html" class="btn btn-info">Add Movies</a>
+    </section>
+  </main>
+
+
+ 
+
 </body>
 
 </html>
